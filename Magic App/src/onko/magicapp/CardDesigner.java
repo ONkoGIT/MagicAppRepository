@@ -12,7 +12,7 @@ public class CardDesigner extends JPanel {
 	
 	public CardDesigner(){
 		this.editionFull = "New edition";
-		this.editionShort = "NEU";
+		this.editionShort = "NEW";
 		this.cardName = "test";
 				
 		cardIO = new CardIO();
