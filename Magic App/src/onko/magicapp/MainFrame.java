@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import onko.magicapp.ui.CardDesignerPanel;
+import onko.magicapp.ui.EditionCardlistPanel;
 
 public class MainFrame extends JFrame {
 	
@@ -31,7 +32,7 @@ public class MainFrame extends JFrame {
 		cardDesignerPanel.setVisible(true);
 		this.setVisible(true);
 
-		
+		EditionCardlistPanel ecl = new EditionCardlistPanel();
 		
 		
 //		p.setLayout(new BorderLayout());
@@ -60,7 +61,7 @@ public class MainFrame extends JFrame {
 
 		new MainFrame();
 		CardDesigner cd = new CardDesigner();
-		cd.saveCard();
+		//cd.saveCard();
 	
 
 		
